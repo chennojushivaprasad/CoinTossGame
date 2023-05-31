@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f9d423, #e2a139);
+  }
+  .game-container {
+    width: 90%;
+    max-width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 20px;
+  }
+  
+  .heading {
+    color: #a35200;
+    text-align: center;
+  }
+  
+  .chooseHeadsTails {
+    color: #334155;
+  }
+  
+  .coin-image {
+    width: 160px;
+    height: 160px;
+  }
+  .toss-coin-button {
+    background-color: #e2a139;
+    color: #a35200;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .results {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .results p {
+    color: #334155;
+  }
+  
